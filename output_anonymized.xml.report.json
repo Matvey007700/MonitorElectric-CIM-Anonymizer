@@ -1,0 +1,12 @@
+{
+  "input": "input.xml",
+  "output": "output_anonymized.xml",
+  "counts": {
+    "objects": 741550,
+    "references": 5455104,
+    "names": 581351,
+    "identifiers": 496993,
+    "sensitive_fields": 139480
+  },
+  "note": "Internal rdf:about/rdf:resource links were rewritten consistently. Verify domain-specific fields before production use."
+}

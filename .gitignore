@@ -1,0 +1,20 @@
+# Local models and archives
+*.xml
+*.rdf
+*.cim
+*.zip
+*.7z
+*.gz
+*.xml.*
+!output_anonymized.xml.report.json
+# Python and local settings
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.vscode/
+.env
+
+# Allow processed model only
+!/output_anonymized.xml
+/input.xml
